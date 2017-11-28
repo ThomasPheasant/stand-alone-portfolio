@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Stand Alone Gallery</title>
  
@@ -13,7 +13,7 @@
 <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="theme-color" content="#ffffff">
    
- <link rel="stylesheet" href="css/styles.css">	
+ <link rel="stylesheet" href="css/styles.css">
 	
 </head>
 <body class="portfolio">
@@ -29,31 +29,37 @@
 <main>
 
 
+
         
 
     <header>      
         <h1 class="tag name">Portfolio</h1>
         <p class="tag location">All the images below are projects I've done showing my ability and creativity.</p>
         <!--<img src="http://picsum.photos/200x200">-->
-        
     </header>
        
     
         
      <!-- Image thumbnail with descriptions and full size image links -->
-     <figure>
+     <figure class="uk-flex uk-flex-wrap">
+         <div class="card3">
+             <div id="polaroid">
      
      <!-- Image 1 -->
-       <a href="img/fullsize/3dModledbuilding.jpg"><img src="http://placehold.it/100x100" alt="thumbnail"></a>
-       <figcaption>Description for grouping of items.</figcaption>
+      <figure>
+          <a href="img/fullsize/3dModledbuilding.jpg"><img src="http://placehold.it/100x100" alt="thumbnail"></a>
+          <figcaption>Description for grouping of items.</figcaption>
+      </figure>
+       
      
      <!-- Image 2 -->
-       <a href="img/fullsize/3dModledhouse.jpg"><img src="http://placehold.it/100x100" alt="thumbnail"></a>
+       <figure>
+           <a href="img/fullsize/3dModledhouse.jpg"><img src="http://placehold.it/100x100" alt="thumbnail"></a>
        <figcaption>Description for grouping of items.</figcaption>
+       </figure>
        
      <!-- Image 3 -->
-       <a href="img/fullsize/3dModledmarket.jpg"><img src="http://placehold.it/100x100" alt="thumbnail"></a>
-       <figcaption>Description for grouping of items.</figcaption>
+       
 
      <!-- Image 4 -->
        <a href="img/fullsize/3dModledhall.jpg"><img src="http://placehold.it/100x100" alt="thumbnail"></a>
@@ -98,13 +104,25 @@
      <!-- Image 14 -->
        <a href="img/fullsize/topoportrait.jpg"><img src="http://placehold.it/100x100" alt="thumbnail"></a>
        <figcaption>Description for grouping of items.</figcaption>
-     
+       
+             </div>
+         </div>    
      </figure>
-     
-     
-	
+
 </main>	
 
+
+
+
+<footer>
+      <ul>
+        <li><a href="https://twitter.com/ThomasPheasant" target="_blank" class="img"><img src="/img/twitter.png" alt="twitter"></a></li>
+        <li><a href="https://www.facebook.com/thomas.pheasant" class="social"><img src="/img/facebook.png" alt="facebook"></a></li>
+        <li><a href="https://github.com/ThomasPheasant" class="img github"><img src="/img/github.png" alt="github"></a></li>
+        <li><a href="https://www.youtube.com/user/thomaspheasant" class="social youtube"><img src="/img/youtube.png" alt="youtube"></a></li>
+      </ul>
+      <p class="copyright">Copyright 2015, Thomas Pheasant</p>
+    </footer>
 
 <!-- Scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
