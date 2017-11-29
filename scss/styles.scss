@@ -62,7 +62,18 @@ a:hover {
 .nav a:hover {
   color: white
 }
-/*-----------------------------------------------------------------------------------Header_ Fabric1---*/
+/*-----------------------------------------------------------------------------------Header_ Fabric---*/
+.bg0 {
+  background: url("../img/fabric.png") no-repeat top center ;
+}
+
+.bg1 {
+  background: url("../img/fabric1.png") no-repeat top center ;
+}
+
+.bg2 {
+  background: url("../img/fabric2.png") no-repeat top center ;
+}
 header {
   text-align: center;
   background: url("../img/fabric.png") no-repeat top center ;

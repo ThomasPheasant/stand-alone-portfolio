@@ -11,7 +11,7 @@ var numRand = Math.floor( Math.random() * maxRand );
 console.log(numRand);
 
 // Show Images
-$('fabric').attr( 'src', eval('fabric' + numRand));
+$('body').addClass('bg' + numRand);
 
 
 
