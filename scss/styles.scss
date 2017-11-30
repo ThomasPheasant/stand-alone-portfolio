@@ -76,14 +76,14 @@ a:hover {
 }
 header {
   text-align: center;
-  background: url("../img/fabric.png") no-repeat top center ;
+  //background: url("../img/fabric.png") no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
-header {
-  line-height: 1.5;
-}
+//header {
+  //line-height: 1.5;
+//}
 /*------------------------------------------------------------------------------------Profile_Image_Header---*/
 header .profile-image {
   margin-top: 50px;
@@ -117,35 +117,10 @@ header .logo-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
+  background-color: #f7f5f0;
   color: white;
 }
-/*-----------------------------------------------------------------------------------CARD_START---*/
-.card {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-}
-.card:hover {
-  border-color: red;
-}
-/*-----------------------------------------------------------------------------------CARD2_START---*/
-.card2 {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 1000px;
-  text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-}
-.card2:hover {
-  border-color: red;
-}
+
 /*-----------------------------------------------------------------------------------CARD3_START---*/
 .card3 {
   margin: 30px;
@@ -284,6 +259,9 @@ a.img:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+ .lg-backdrop{
+    background-color: #f7f5f0;
   }
 
 }
