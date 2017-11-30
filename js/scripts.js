@@ -18,15 +18,10 @@
 
 
 
-
-
-
-
-
-
 // Activate Gallery
 $('figure').lightGallery({
     selector: 'a', 
     thumbnail: true,
     share: false,
+    zoom: false,
 });

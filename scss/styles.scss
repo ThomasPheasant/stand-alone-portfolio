@@ -3,7 +3,9 @@
 @import "lg-transitions";
 @import "uikit.min";
 /*------------------------------------------------------------------------- */
-
+.lg-backdrop{
+    background-color: #f7f5f0;
+  }
 
 body {
   margin: 0;
@@ -223,6 +225,7 @@ a.img:hover {
   clear: both;
 }
 
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
@@ -259,9 +262,6 @@ a.img:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
-  }
- .lg-backdrop{
-    background-color: #f7f5f0;
   }
 
 }
